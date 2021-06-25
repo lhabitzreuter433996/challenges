@@ -12,7 +12,7 @@ const getCleanString = string => (
 const countVowels = name => {
   let counter = 0
   for (let i = 0; i < name.length; i++) {
-    if (VOWELS.indexOf(name[i]) !== -1) {
+    if (VOWELS.includes(name[i])) {
       counter++
     }
   }
